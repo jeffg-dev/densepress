@@ -13,6 +13,14 @@ Toggle settings are remembered. Article extraction uses Mozilla's [Readability](
 
 Repo: https://github.com/jeffg-dev/densepress
 
+## Prebuilt
+
+The `builds/` folder holds ready-to-install packages:
+- `densepress-firefox-1.0.1-signed.xpi` is signed by Mozilla. Open it in Firefox to install.
+- `densepress-chrome-1.1.0.zip` is a Chrome developer build. Unzip it and use Load unpacked (see below).
+
+The signed Firefox build is 1.0.1. 1.1.0 adds Chrome support and the repo link, with no change to Firefox behavior.
+
 ## Build
 
 Requires Node 18+ and the `zip` command.
